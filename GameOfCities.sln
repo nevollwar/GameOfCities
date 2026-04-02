@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfCities.Logic", "GameOfCities.Logic\GameOfCities.Logic.csproj", "{B8A0D517-221D-4A67-BF90-8F82531C757A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfCities.Tests", "GameOfCities.Tests\GameOfCities.Tests.csproj", "{126C3D22-2A24-45D4-AB8A-0650980EE287}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8A0D517-221D-4A67-BF90-8F82531C757A} = {B8A0D517-221D-4A67-BF90-8F82531C757A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

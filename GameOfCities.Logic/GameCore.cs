@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace GameOfCities.Logic
 {
-    internal class GameCore
+    public class GameCore
     {
         private readonly List<string> _allCities;
         private readonly HashSet<string> _usedCities;
@@ -53,8 +53,7 @@ namespace GameOfCities.Logic
         public string ComputerTurn()
         {
             string foundCity = _allCities
-                .FirstOrDefault(c => c.StartsWith(CurrentLetter.ToString(), StringComparison.OrdinalIgnoreCase) 
-                && !_usedCities.Contains(c));
+                .FirstOrDefault(c => c.StartsWith(CurrentLetter.ToString(), StringComparison.OrdinalIgnoreCase) && !_usedCities.Contains(c));
 
             if (foundCity != null)
             {
@@ -71,7 +70,7 @@ namespace GameOfCities.Logic
 
             string lowerCity  = city.ToLower();
 
-            for(int i = lowerCity.Length - 1, i >= 0; i--)
+            for(int i = lowerCity.Length - 1; i >= 0; i--)
             {
                 char letter = lowerCity[i];
                 if(!badLetters.Contains(letter))
