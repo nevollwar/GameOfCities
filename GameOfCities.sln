@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36429.23 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfCities.UI", "GameOfCities.UI\GameOfCities.UI.csproj", "{D02AA05D-2C0D-433E-AFC5-B37AB306D1CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfCities.Logic", "GameOfCities.Logic\GameOfCities.Logic.csproj", "{B8A0D517-221D-4A67-BF90-8F82531C757A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfCities.Tests", "GameOfCities.Tests\GameOfCities.Tests.csproj", "{126C3D22-2A24-45D4-AB8A-0650980EE287}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D02AA05D-2C0D-433E-AFC5-B37AB306D1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D02AA05D-2C0D-433E-AFC5-B37AB306D1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D02AA05D-2C0D-433E-AFC5-B37AB306D1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A0D517-221D-4A67-BF90-8F82531C757A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A0D517-221D-4A67-BF90-8F82531C757A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A0D517-221D-4A67-BF90-8F82531C757A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A0D517-221D-4A67-BF90-8F82531C757A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126C3D22-2A24-45D4-AB8A-0650980EE287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126C3D22-2A24-45D4-AB8A-0650980EE287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126C3D22-2A24-45D4-AB8A-0650980EE287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126C3D22-2A24-45D4-AB8A-0650980EE287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
