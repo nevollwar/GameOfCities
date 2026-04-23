@@ -131,7 +131,7 @@ namespace GameOfCities.Logic
             {
                 char letter = lowerCity[i];
 
-                // 1. Проверяем: является ли символ БУКВОЙ? 
+                // 1. Проверяем: является ли символ буквой? 
                 // (Это пропустит скобки, пробелы, цифры и тире)
                 if (char.IsLetter(letter))
                 {

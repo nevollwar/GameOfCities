@@ -1,6 +1,6 @@
 ﻿namespace GameOfCities.UI
 {
-    partial class Form1
+    partial class GameOfCities
     {
         /// <summary>
         ///  Required designer variable.

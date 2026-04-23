@@ -8,7 +8,7 @@ namespace GameOfCities.UI
     /// <summary>
     /// Представляет графический интерфейс пользователя и обрабатывает взаимодействие с игроком.
     /// </summary>
-    public partial class Form1 : Form
+    public partial class GameOfCities : Form
     {
         // Поля управления визуальными компонентами
         private Panel pnlMenu;
@@ -32,7 +32,7 @@ namespace GameOfCities.UI
         /// <summary>
         /// Инициализирует форму, настраивает параметры окна и вызывает начальный экран меню.
         /// </summary>
-        public Form1()
+        public GameOfCities()
         {
             this.Text = "Игра в города v1.0";
             this.Size = new Size(500, 700);
